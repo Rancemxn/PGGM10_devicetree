@@ -21,12 +21,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.holi
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.holi \
-    libgptutils \
-    libz \
-    libcutils
-
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
@@ -35,6 +29,6 @@ PRODUCT_PACKAGES += \
     update_engine_sideload
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-PRODUCT_PACKAGES +=
-android.hardware.fastboot@1.0-impl-mock
-fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd
