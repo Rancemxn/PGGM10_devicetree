@@ -68,7 +68,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPER_PARTITION_SIZE := 9126805504
 BOARD_SUPER_PARTITION_GROUPS := qualcomm_dynamic_partitions
-BOARD_QUALCOMM_DYNAMIC_PARTITIONS_PARTITION_LIST := system system system_ext system_ext product product vendor vendor odm odm my_product my_product my_company my_company my_carrier my_carrier my_region my_region my_bigball my_bigball my_heytap my_heytap my_stock my_stock my_preload my_preload my_manifest my_manifest my_engineering my_engineering
+BOARD_QUALCOMM_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product system_ext odm
 BOARD_QUALCOMM_DYNAMIC_PARTITIONS_SIZE := 9122611200
 
 # Platform
